@@ -1,4 +1,4 @@
-import { element } from 'prop-types';
+// import { element } from 'prop-types';
 import React, { Component } from 'react'
 import NewsItem from './NewsItem'
 import Spinner from './Spinner';
@@ -6,8 +6,7 @@ import PropTypes from 'prop-types'
 
 export class News extends Component {
 
-
-    static defaultProps = {
+            static defaultProps = {
             country: 'us',
             pageSize: 5,
             category: 'general'
